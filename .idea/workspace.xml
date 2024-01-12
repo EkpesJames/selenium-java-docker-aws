@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdfb0c1c-f968-4b20-b74f-b4293abc335e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-grid-1/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/AbstractPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/flightreservation/FlightConfirmationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/flightreservation/FlightSearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/flightreservation/RegistrationConfirmPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/flightreservation/RegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/flightreservation/SelectFlightPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/vendorportal/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/vendorportal/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test-suite/flight-reservation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test-suite/vendor-portal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/testData/flight-reservation/passenger-1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/testData/flight-reservation/passenger-2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/testData/flight-reservation/passenger-3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/testData/flight-reservation/passenger-4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/testData/vendorportal/john.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/testData/vendorportal/mike.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/testData/vendorportal/sam.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/test/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/test/flightreservation/FlightReservationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/test/flightreservation/model/FlightReservationTestDataModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/test/vendorportal/VendorPortalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/test/vendorportal/model/VendorPortalTestDataModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/utils/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/utils/ResourceLoader.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Record" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2aeTOy9w2LcuQyINcpD9AwY75EI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Dev/selenium4-java-jenkins-docker-aws/src/main/resources/test-data/vendor_portal/flight-reservation&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.24251208&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dev\selenium4-java-jenkins-docker-aws\src\main\resources\test-data\vendor_portal\flight-reservation" />
+      <recent name="C:\Dev\selenium4-java-jenkins-docker-aws\src\main\resources\test-suite" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Dev\selenium4-java-jenkins-docker-aws\src\main\resources\testData" />
+      <recent name="C:\Dev\selenium4-java-jenkins-docker-aws\src\main\resources\test-data\vendor-portal\vendorportal" />
+      <recent name="C:\Dev\selenium4-java-jenkins-docker-aws\src\main\resources" />
+      <recent name="C:\Dev\selenium4-java-jenkins-docker-aws\src\main\resources\test-data\vendor_portal" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Dev/selenium4-java-jenkins-docker-aws/src/main/resources/test-suite/flight-reservation.xml">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.utils.Demo" />
+      <module name="selenium4-java-jenkins-docker-aws" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Dev/selenium4-java-jenkins-docker-aws/src/main/resources/test-suite/flight-reservation.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium4-java-jenkins-docker-aws" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/test-suite/flight-reservation.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Dev/selenium4-java-jenkins-docker-aws/src/main/resources/test-suite/vendor-portal.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium4-java-jenkins-docker-aws" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/test-suite/vendor-portal.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlightReservationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium4-java-jenkins-docker-aws" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.test.flightreservation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.test.flightreservation" />
+      <option name="MAIN_CLASS_NAME" value="org.example.test.flightreservation.FlightReservationTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VendorPortalTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium4-java-jenkins-docker-aws" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.test.vendorportal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.test.vendorportal" />
+      <option name="MAIN_CLASS_NAME" value="org.example.test.vendorportal.VendorPortalTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Dev/selenium4-java-jenkins-docker-aws/src/main/resources/test-suite/flight-reservation.xml" />
+        <item itemvalue="TestNG.C:/Dev/selenium4-java-jenkins-docker-aws/src/main/resources/test-suite/vendor-portal.xml" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="TestNG.VendorPortalTest" />
+        <item itemvalue="TestNG.FlightReservationTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdfb0c1c-f968-4b20-b74f-b4293abc335e" name="Changes" comment="" />
+      <created>1704678028150</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704678028150</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/selenium4_java_jenkins_docker_aws$VendorPortalTest.ic" NAME="VendorPortalTest Coverage Results" MODIFIED="1704840743717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.test.vendorportal.*</FILTER>
+    </SUITE>
+  </component>
+</project>
