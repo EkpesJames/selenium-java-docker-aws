@@ -45,7 +45,7 @@ public abstract class AbstractTest {
         if (Constants.FIREFOX.equalsIgnoreCase(ConfigFileReader.get(Constants.BROWSER))){
             capabilities = new FirefoxOptions();
         }
-        String urlFormat = ConfigFileReader.get(Constants.BROWSER);
+        String urlFormat = ConfigFileReader.get(Constants.GRID_URL_FORMAT);
         String hubHost = ConfigFileReader.get(Constants.GRID_HUB_HOST);
 
         String url = String.format(urlFormat, hubHost);
