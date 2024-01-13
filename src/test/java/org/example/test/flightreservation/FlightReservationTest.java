@@ -3,6 +3,8 @@ package org.example.test.flightreservation;
 import org.example.pages.flightreservation.*;
 import org.example.test.AbstractTest;
 import org.example.test.flightreservation.model.FlightReservationTestDataModel;
+import org.example.utils.ConfigFileReader;
+import org.example.utils.Constants;
 import org.example.utils.JsonUtil;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
@@ -22,7 +24,7 @@ public class FlightReservationTest extends AbstractTest {
     @Test
     public void userRegistration(){
         RegistrationPage registrationPage = new RegistrationPage(driver);
-        registrationPage.goTo("https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html#page-top");
+        registrationPage.goTo(ConfigFileReader.get(Constants.FLIGHT_RESERVATION_URL));
         driver.manage().window().maximize();
 
         Assert.assertTrue(registrationPage.isAt());
