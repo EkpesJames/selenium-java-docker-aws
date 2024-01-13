@@ -5,39 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdfb0c1c-f968-4b20-b74f-b4293abc335e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-grid-1/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/AbstractPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/flightreservation/FlightConfirmationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/flightreservation/FlightSearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/flightreservation/RegistrationConfirmPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/flightreservation/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/flightreservation/SelectFlightPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/vendorportal/DashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/vendorportal/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/test-suite/flight-reservation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/test-suite/vendor-portal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testData/flight-reservation/passenger-1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testData/flight-reservation/passenger-2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testData/flight-reservation/passenger-3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testData/flight-reservation/passenger-4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testData/vendorportal/john.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testData/vendorportal/mike.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testData/vendorportal/sam.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/test/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/test/flightreservation/FlightReservationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/test/flightreservation/model/FlightReservationTestDataModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/test/vendorportal/VendorPortalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/test/vendorportal/model/VendorPortalTestDataModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/utils/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/utils/ResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose-maximum-session/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scaled-container-in-grid/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/default.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/utils/ConfigFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/test-suite/flight-reservation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/test-suite/flight-reservation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/test-suite/vendor-portal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/test-suite/vendor-portal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/test/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/test/AbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/test/flightreservation/FlightReservationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/test/flightreservation/FlightReservationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/test/vendorportal/VendorPortalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/test/vendorportal/VendorPortalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,21 +52,23 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Dev/selenium4-java-jenkins-docker-aws/src/main/resources/test-data/vendor_portal/flight-reservation&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.24251208&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Dev/selenium4-java-jenkins-docker-aws/docker-compose-maximum-session",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.build",
+    "settings.editor.splitter.proportion": "0.24251208"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dev\selenium4-java-jenkins-docker-aws\docker-compose-maximum-session" />
+      <recent name="C:\Dev\selenium4-java-jenkins-docker-aws\scaled-container" />
       <recent name="C:\Dev\selenium4-java-jenkins-docker-aws\src\main\resources\test-data\vendor_portal\flight-reservation" />
       <recent name="C:\Dev\selenium4-java-jenkins-docker-aws\src\main\resources\test-suite" />
     </key>
