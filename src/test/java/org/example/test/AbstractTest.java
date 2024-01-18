@@ -1,24 +1,27 @@
 package org.example.test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.example.test.listener.TestListener;
 import org.example.utils.ConfigFileReader;
 import org.example.utils.Constants;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.ITestContext;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 
+@Listeners({TestListener.class})
 public abstract class AbstractTest {
 
     private static final Logger log = LoggerFactory.getLogger(AbstractTest.class);
@@ -30,8 +33,9 @@ public abstract class AbstractTest {
     }
 
     @BeforeTest
-    public void setDriver() throws MalformedURLException {
+    public void setDriver(ITestContext iTestContext) throws MalformedURLException {
         this.driver = Boolean.parseBoolean(ConfigFileReader.get(Constants.GRID_ENABLED)) ? getRemoteDriver(): getLocalDriver();
+        iTestContext.setAttribute(Constants.DRIVER, this.driver); //Help listener to get driver context.
     }
 
     private WebDriver getLocalDriver(){
