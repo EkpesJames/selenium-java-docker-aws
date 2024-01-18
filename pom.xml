@@ -84,9 +84,11 @@
             <selenium.grid.enabled>true</selenium.grid.enabled>
           </systemPropertyVariables>
           <suiteXmlFiles>
-            <file>test-suite.xml</file>
+            <!--Referencing test suite location-->
+            <file>src/main/resources/test-suite/flight-reservation.xml</file>
+            <file>src/main/resources/test-suite/vendor-portal.xml</file>
           </suiteXmlFiles>
-          <threadCount>1</threadCount>
+          <threadCount>2</threadCount>
           <reportsDirectory>target/test-output</reportsDirectory>
         </configuration>
       </plugin>
@@ -123,32 +125,35 @@
             <goals>
               <goal>test-jar</goal>
             </goals>
+<!--            <configuration>-->
+<!--              <includes>**/*.class</includes>-->
+<!--            </configuration>-->
           </execution>
         </executions>
       </plugin>
       <!-- To copy resources into the output directory -->
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-resources-plugin</artifactId>
-        <version>${maven.resources.plugin}</version>
-        <executions>
-          <execution>
-            <id>copy-resources</id>
-            <phase>prepare-package</phase>
-            <goals>
-              <goal>copy-resources</goal>
-            </goals>
-            <configuration>
-              <outputDirectory>${package.directory}</outputDirectory>
-              <resources>
-                <resource>
-                  <directory>src/test/resources</directory>
-                </resource>
-              </resources>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
+<!--      <plugin>-->
+<!--        <groupId>org.apache.maven.plugins</groupId>-->
+<!--        <artifactId>maven-resources-plugin</artifactId>-->
+<!--        <version>${maven.resources.plugin}</version>-->
+<!--        <executions>-->
+<!--          <execution>-->
+<!--            <id>copy-resources</id>-->
+<!--            <phase>prepare-package</phase>-->
+<!--            <goals>-->
+<!--              <goal>copy-resources</goal>-->
+<!--            </goals>-->
+<!--            <configuration>-->
+<!--              <outputDirectory>${package.directory}</outputDirectory>-->
+<!--              <resources>-->
+<!--                <resource>-->
+<!--                  <directory>src/test/resources</directory>-->
+<!--                </resource>-->
+<!--              </resources>-->
+<!--            </configuration>-->
+<!--          </execution>-->
+<!--        </executions>-->
+<!--      </plugin>-->
     </plugins>
   </build>
 </project>
