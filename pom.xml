@@ -85,8 +85,8 @@
           </systemPropertyVariables>
           <suiteXmlFiles>
             <!--Referencing test suite location-->
-            <file>src/main/resources/test-suite/flight-reservation.xml</file>
-            <file>src/main/resources/test-suite/vendor-portal.xml</file>
+            <file>src/test/resources/test-suite/flight-reservation.xml</file>
+            <file>src/test/resources/test-suite/vendor-portal.xml</file>
           </suiteXmlFiles>
           <threadCount>2</threadCount>
           <reportsDirectory>target/test-output</reportsDirectory>
@@ -118,42 +118,43 @@
         <artifactId>maven-jar-plugin</artifactId>
         <version>${maven.jar.version}</version>
         <configuration>
-          <outputDirectory>${package.directory}</outputDirectory>
+          <outputDirectory>${package.directory}/libs</outputDirectory>
         </configuration>
         <executions>
           <execution>
             <goals>
               <goal>test-jar</goal>
             </goals>
-<!--            <configuration>-->
-<!--              <includes>**/*.class</includes>-->
-<!--            </configuration>-->
+            <configuration>
+              <!--The will only include class files in the build, ignore folders-->
+              <includes>**/*.class</includes>
+            </configuration>
           </execution>
         </executions>
       </plugin>
       <!-- To copy resources into the output directory -->
-<!--      <plugin>-->
-<!--        <groupId>org.apache.maven.plugins</groupId>-->
-<!--        <artifactId>maven-resources-plugin</artifactId>-->
-<!--        <version>${maven.resources.plugin}</version>-->
-<!--        <executions>-->
-<!--          <execution>-->
-<!--            <id>copy-resources</id>-->
-<!--            <phase>prepare-package</phase>-->
-<!--            <goals>-->
-<!--              <goal>copy-resources</goal>-->
-<!--            </goals>-->
-<!--            <configuration>-->
-<!--              <outputDirectory>${package.directory}</outputDirectory>-->
-<!--              <resources>-->
-<!--                <resource>-->
-<!--                  <directory>src/test/resources</directory>-->
-<!--                </resource>-->
-<!--              </resources>-->
-<!--            </configuration>-->
-<!--          </execution>-->
-<!--        </executions>-->
-<!--      </plugin>-->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>${maven.resources.plugin}</version>
+        <executions>
+          <execution>
+            <id>copy-resources</id>
+            <phase>prepare-package</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${package.directory}</outputDirectory>
+              <resources>
+                <resource>
+                  <directory>src/test/resources</directory>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
     </plugins>
   </build>
 </project>

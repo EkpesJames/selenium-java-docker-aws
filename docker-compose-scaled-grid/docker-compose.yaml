@@ -5,8 +5,6 @@ services:
     shm_size: 2gb
     depends_on:
       - selenium-hub
-    deploy:
-      replicas: 4
     environment:
       - SE_EVENT_BUS_HOST=selenium-hub
       - SE_EVENT_BUS_PUBLISH_PORT=4442
@@ -17,8 +15,6 @@ services:
     shm_size: 2gb
     depends_on:
       - selenium-hub
-    deploy:
-      replicas: 4
     environment:
       - SE_EVENT_BUS_HOST=selenium-hub
       - SE_EVENT_BUS_PUBLISH_PORT=4442
@@ -29,17 +25,25 @@ services:
     shm_size: 2gb
     depends_on:
       - selenium-hub
-    deploy:
-      replicas: 4
     environment:
       - SE_EVENT_BUS_HOST=selenium-hub
       - SE_EVENT_BUS_PUBLISH_PORT=4442
       - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
 
+  vendor-portal:
+    image: ejetest/selenium
+    depends_on:
+      - chrome
+    environment:
+      - BROWSER=chrome
+      - HUB_HOST=selenium-hub
+      - THREAD_COUNT=2
+      - TEST_SUITE=vendor-portal.xml
+    volumes:
+      - C:/Dev/selenium4-java-jenkins-docker-aws/output/vendor-portal:/home/selenium-docker/test-output
+
   selenium-hub:
     image: selenium/hub:latest
     container_name: selenium-hub
     ports:
-      #- "4442:4442"
-      #- "4443:4443"
       - "4444:4444"

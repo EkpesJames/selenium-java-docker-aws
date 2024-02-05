@@ -1,0 +1,11 @@
+{
+  "firstName": "Marshall",
+  "lastName": "John",
+  "email": "marshal.john@mail.com",
+  "password": "mj",
+  "street": "456 main street",
+  "city": "detroit",
+  "zip": "4001",
+  "passengerCount": "2",
+  "expectedPrice": "$1169 USD"
+}

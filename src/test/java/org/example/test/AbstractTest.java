@@ -1,7 +1,7 @@
 package org.example.test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.example.test.listener.TestListener;
+import org.example.listener.TestListener;
 import org.example.utils.ConfigFileReader;
 import org.example.utils.Constants;
 import org.openqa.selenium.Capabilities;
